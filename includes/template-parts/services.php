@@ -25,9 +25,12 @@
                     <div class="services-tabs-img__item active" style="background-image: url('../../images/content/services/services-item-1.jpg');"></div>
                     <div class="services-tabs-img__item" style="background-image: url('../../images/content/services/services-item-2.jpg');"></div>
                     <div class="services-tabs-img__item" style="background-image: url('../../images/content/services/services-item-3.jpg');"></div>
+                    <div class="logo">
+                        <img src="../../images/icon/logo/logo.png" alt="logo">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-8 mx-auto col-lg-7 col-xl-6">
+            <div class="col-sm-8 mx-auto col-lg-6">
                 <div class="services-tabs">
                     <div class="services-tabs-header">
                         <ul class="services-tabs-header-list list-unstyled">
@@ -49,6 +52,9 @@
                     </div>
                     <div class="services-tabs-body">
                         <div class="services-tabs-body-item active">
+                            <div class="services-tabs-body-item__title">
+                                <span class="simple-text">Цена</span>43 грн / за 1 бутыль воды
+                            </div>
                             <div class="services-tabs-body-item__text">
                                 Очистка воды Арктика производится в несколько этапов:
                             </div>
@@ -61,15 +67,15 @@
                                 <li class="custom-list-item">прохождение воды через финишный фильтр из кокосовой стружки</li>
                             </ul>
                             <div class="services-tabs-body-item-description">
-                                <div class="services-tabs-body-item-description__text">
-                                    <span class="title">Цена</span>43 грн / за 1 бутыль воды
-                                </div>
-                                <a href="#" class="btn btn-primary">
+                                <a href="#" class="btn btn-primary open-order">
                                     Заказать воду
                                 </a>
                             </div>
                         </div>
                         <div class="services-tabs-body-item">
+                            <div class="services-tabs-body-item__title">
+                                Необходимое оборудование
+                            </div>
                             <ul class="custom-list list-unstyled">
                                 <li class="custom-list-item">Залоговая возвратная стоимость поликарбонатного бутыля
                                     18,9 л - 170 грн.</li>
@@ -77,15 +83,15 @@
                                 <li class="custom-list-item">Дополнительное оборудование оговаривается с консультантом</li>
                             </ul>
                             <div class="services-tabs-body-item-description">
-                                <div class="services-tabs-body-item-description__text">
-                                    Необходимое оборудование
-                                </div>
-                                <a href="#" class="btn btn-primary">
+                                <a href="#" class="btn btn-primary open-order">
                                     Заказать воду
                                 </a>
                             </div>
                         </div>
                         <div class="services-tabs-body-item">
+                            <div class="services-tabs-body-item__title">
+                                Доставка
+                            </div>
                             <ul class="custom-list list-unstyled">
                                 <li class="custom-list-item custom-list-item--important">
                                     Время работы: понедельник -
@@ -98,10 +104,7 @@
                                 </li>
                             </ul>
                             <div class="services-tabs-body-item-description">
-                                <div class="services-tabs-body-item-description__text">
-                                    Доставка
-                                </div>
-                                <a href="#" class="btn btn-primary">
+                                <a href="#" class="btn btn-primary open-order">
                                     Заказать воду
                                 </a>
                             </div>

@@ -76,10 +76,32 @@
     width: 30px;
     height: 30px;
 
+    &.active {
+
+        .line {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            &--top {
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+
+            &--middle {
+                transform: translate(-50%, -50%) rotate(-45deg);
+            }
+
+            &--bottom {
+                width: 0;
+            }
+        }
+    }
+
     .line {
         margin-bottom: 5px;
         width: 30px;
         height: 2px;
         background: #fff;
+        transition: .5s;
     }
 }

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Арктика</title>
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="dist/app.css">
 </head>
@@ -21,7 +21,7 @@
                     </a>
                 </div>
                 <div class="col-sm-9 col-xl-7 d-flex justify-content-between align-items-center">
-                    <nav class="menu w-100 mr-lg-5">
+                    <nav class="menu w-100 mr-lg-5" id="nav-menu">
                         <div class="menu-content">
                             <ul class="menu-list d-flex flex-column flex-lg-row justify-content-between align-items-center list-unstyled">
                                 <li class="menu-list-item">
@@ -40,14 +40,14 @@
                                     </a>
                                 </li>
                                 <li class="menu-list-item">
-                                    <a href="#contacts" class="scroll-link">
+                                    <a href="#app-footer" class="scroll-link">
                                         контакты
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
-                    <a href="#" class="btn btn-outline-light d-none d-lg-inline-flex">
+                    <a href="#" class="btn btn-outline-light d-none d-lg-inline-flex open-order">
                         Заказать воду
                     </a>
                 </div>
@@ -60,5 +60,5 @@
         </div>
     </header>
 
-    <main>
+    <main data-spy="scroll" data-target="#nav-menu" data-offset="0">
 

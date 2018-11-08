@@ -11,7 +11,7 @@
                     </h1>
                     <div class="intro-item-description d-flex flex-column flex-sm-row align-items-center align-items-sm-start">
                         <div class="intro-button order-2 order-sm-1">
-                            <a href="#" class="btn btn-primary">
+                            <a href="#" class="btn btn-primary open-order">
                                 Заказать воду
                             </a>
                         </div>
@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <a href="#servisec" class="scroll-down scroll-link">
+    <a href="#services" class="scroll-down scroll-link">
         <div class="scroll-down__text">
             скролл вниз
         </div>
