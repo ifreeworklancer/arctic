@@ -53,8 +53,10 @@ require('bootstrap');
         scrollTop: top
       }, 1500);
 
-      $('.burger-menu').removeClass('active');
-      $('.menu').slideUp();
+      if ($(window).width() < 990) {
+        $('.burger-menu').removeClass('active');
+        $('.menu').slideUp();
+      }
     }
   });
 
